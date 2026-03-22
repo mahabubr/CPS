@@ -1,0 +1,1 @@
+costMnIdx < cost[i]

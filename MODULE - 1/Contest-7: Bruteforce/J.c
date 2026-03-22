@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
+#include <math.h>      
+#include <limits.h>
+#include <float.h>     
+#include <time.h> 
+#include <ctype.h> 
+#include <fcntl.h>     
+#include <unistd.h>    
+
+int main() {
+    int t = 1;
+
+    scanf("%d", &t);
+
+    while (t--) {
+        int n;
+
+        scanf("%d", &n);
+
+        if (n % 7 == 0) {
+            printf("%d", n);
+        }
+        else {
+
+            n -= n % 10;
+
+            int tmp = n;
+
+            while (tmp % 7 != 0) {
+                tmp++;
+            }
+
+            printf("%d", tmp);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}

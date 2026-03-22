@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
+#include <math.h>      
+#include <limits.h>
+#include <float.h>     
+#include <time.h> 
+#include <ctype.h> 
+#include <fcntl.h>     
+#include <unistd.h>    
+#include <stdlib.h>
+
+
+int compare_ints(const void* a, const void* b) {
+    int x = *(const int*)a;
+    int y = *(const int*)b;
+    return (x > y) - (x < y);  // avoids overflow
+}
+
+
+int main() {
+    int t = 1;
+
+    // scanf("%d", &t);
+
+    while (t--) {
+        int n;
+
+        scanf("%d", &n);
+
+        int arr[n];
+
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &arr[i]);
+        }
+
+        qsort(arr, n, sizeof(int), compare_ints);
+
+        int i = 0, j = n - 1;
+
+        long long int ans = 0;
+
+        while (i < j) {
+
+            ans += (long long)arr[j] - (long long)arr[i];
+
+            i++;
+            j--;
+        }
+
+        printf("%lld", ans);
+
+
+        printf("\n");
+    }
+
+    return 0;
+}
