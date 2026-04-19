@@ -1,0 +1,1 @@
+{"name":"Local: P","url":"/home/mahabubr/cp/CPS/MODULE-3/Contest-3: Binary Search/P.cpp","tests":[{"id":1776073829598,"input":"4 3 5\n60 45 80 60\n30 60 75","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mahabubr/cp/CPS/MODULE-3/Contest-3: Binary Search/P.cpp","group":"local","local":true}
