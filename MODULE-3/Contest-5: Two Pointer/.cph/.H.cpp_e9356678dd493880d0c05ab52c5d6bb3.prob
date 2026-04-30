@@ -1,0 +1,1 @@
+{"name":"Local: H","url":"/home/mahabubr/cp/CPS/MODULE-3/Contest-5: Two Pointer/H.cpp","tests":[{"id":1777547463006,"input":"4 2\nabba","output":"4"},{"id":1777547467948,"input":"8 1\naabaabaa","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mahabubr/cp/CPS/MODULE-3/Contest-5: Two Pointer/H.cpp","group":"local","local":true}
