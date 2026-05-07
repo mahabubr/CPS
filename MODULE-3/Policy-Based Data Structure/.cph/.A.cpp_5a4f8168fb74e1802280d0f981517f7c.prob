@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/mahabubr/cp/CPS/MODULE-3/Policy-Based Data Structure/A.cpp","tests":[{"id":1777896218158,"input":"8\nI -1\nI -1\nI 2\nC 0\nK 2\nD -1\nK 1\nK 2","output":"1\n2\n2\ninvalid"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mahabubr/cp/CPS/MODULE-3/Policy-Based Data Structure/A.cpp","group":"local","local":true}

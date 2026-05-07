@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"/home/mahabubr/cp/CPS/MODULE-3/Policy-Based Data Structure/C.cpp","tests":[{"id":1777896877250,"input":"8 3\n2 4 3 5 8 1 2 1","output":"3 4 5 5 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mahabubr/cp/CPS/MODULE-3/Policy-Based Data Structure/C.cpp","group":"local","local":true}
